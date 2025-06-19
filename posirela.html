@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 800px;
+        width: 300px;
+        background-color: teal;
+        margin:auto;
+        margin-top:50px ;
+        position: relativ;
+        top: 50px;
+    }
+    .rel{
+        /* position: relative; */
+        height: 100px;
+       /* top: 20px; */
+        
+        width: 100px;
+        border: 2px solid;
+        background-color: aqua;
+    }
+    .ab{
+        /* position: absolute; */
+        top: 20px;
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+        background-color: blueviolet;
+    }
+    .sti{
+        height: 100px;
+        /* position: sticky; */
+        /* top: 30px; */
+        width: 100px;
+        border: 2px solid;
+        background-color: yellow;
+    }
+    .fix{
+        height: 100px;
+        width: 100px;
+        position: fixed;
+        top: 300px;
+        left: 10px;
+        border: 2px solid;
+        background-color: turquoise;
+    }
+    .m{
+        height: 100px;
+        width: 100px;
+        border: 2px solid;
+
+        position: relative;
+        top: 5000px;
+        background-color: red;
+    }
+</style>
+<body>
+    
+    <div class="m" ></div>
+    <div class="main">
+        <div class="rel" >relative</div>
+        <div class="ab" >absolute</div>
+        <div class="sti" >Sticky</div>
+        <div class="fix">Fixed</div>
+    </div>
+</body>
+</html>
